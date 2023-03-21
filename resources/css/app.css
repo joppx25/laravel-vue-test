@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: vb;
+    src: url('../fonts/Viva\ Beautiful.ttf');
+}
+
+
+.hero-container {
+    background-color: #D4EEED;
+}
+
+.order-history {
+    font-family: vb;
+    font-size: 40px;
+    margin-right: 100px;
+    color: #07cfcf;
+}
+
+.head-description {
+    color: #06b3b3;
+}
+
+.order-table-wrapper table tr {
+    border-style: dotted;
+}
+
+.order-details {
+    background-color: #D4EEED;
+}
+
+@media print {
+   .no-print { display:none; }
+    .print-only {
+        display: block;
+    }
+}
